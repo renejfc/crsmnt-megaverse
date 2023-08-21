@@ -1,0 +1,20 @@
+{
+  "tasks": {
+    "start": "deno run -A ./src/main.ts"
+  },
+  "fmt": {
+    "lineWidth": 120,
+    "indentWidth": 2,
+    "include": ["./"]
+  },
+  "lint": {
+    "rules": {
+      "exclude": [
+        "no-explicit-any"
+      ]
+    }
+  },
+  "imports": {
+    "~/": "./src/"
+  }
+}
